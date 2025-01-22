@@ -1,0 +1,151 @@
+@media (max-width: 756px) {
+    .partners{
+      height: auto;
+      margin-top: 7vh;
+      margin-bottom: 5vh;
+    }
+    .partners-top {
+      width: 100%;
+      text-align: center;
+      font-size: 2.5vw;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+   
+  
+    .partners-top-2 {
+      width: 90%;
+      padding: 2rem;
+      margin-top: 20px;
+    }
+  
+    .partner-logo {
+      height: 6vh; /* Adjust logo height */
+      max-width: 85%;
+      margin: 0 auto;
+    }
+  
+    .partners-top h1,
+    .partners-top span {
+      font-size: 0.9rem;
+    }
+  
+    .partners-top-2 h1 {
+      font-size: 20px;
+      line-height: 1.4;
+    }
+  
+    .partners-top-2 button {
+      font-size: 16px;
+      padding: 12px 20px;
+    }
+  
+    .partners-top-2 .mt-6 {
+      margin-top: 16px;
+    }
+  
+    .partners-top-2 .mt-12 {
+      margin-top: 12px;
+    }
+  
+    .partners-top-2 .mt-16 {
+      margin-top: 20px;
+    }
+  }
+  
+
+
+  
+
+
+
+.container {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+}
+
+/* Main Box */
+.main-box {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  background-color: #4caf50;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Dots */
+.dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.dot:nth-child(1) {
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot:nth-child(2) {
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dot:nth-child(3) {
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot:nth-child(4) {
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Outer Boxes */
+.outer-box {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #ff5722;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* Position of Outer Boxes */
+.outer-box.top-left {
+  top: 10%;
+  left: 10%;
+}
+
+.outer-box.top-right {
+  top: 10%;
+  right: 10%;
+}
+
+.outer-box.bottom-right {
+  bottom: 10%;
+  right: 10%;
+}
+
+.outer-box.bottom-left {
+  bottom: 10%;
+  left: 10%;
+}
+

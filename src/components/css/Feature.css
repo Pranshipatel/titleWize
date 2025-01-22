@@ -1,0 +1,101 @@
+
+@media (max-width: 756px) {
+  .feature{
+     display: flex;
+     flex-direction: column;
+     /* margin-top: 2vh; */
+     /* gap: vh; */
+  }
+    .feature-upper{
+      width: 100%;
+      height:50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+    .feature-upper-left{
+      width: 90%;
+    
+    }
+    .feature-upper-left h1{
+      text-align: start;
+      font-size: 6vw;
+    }
+    .feature-upper-right{
+      display: none;
+    }
+  
+    .feature-bottom {
+        flex-direction: column; 
+        height: auto; 
+        min-height: 190vh;
+        /* margin-bottom: 10vh */
+    }
+  
+    .feature-4{
+        width: 100%; 
+    }
+  
+    .feature-bottom h1 {
+        font-size: 4vw; 
+    }
+  
+    .feature-bottom > div {
+        width: 100%; 
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .feature-top-first{
+      width: 100%;
+      align-items: start;
+      padding: 4vw;
+      /* margin-bottom: 3vh; */
+    }
+    .feature-top-first h1{
+      font-size: 10vw !important;
+    }
+    .feature-top-img-law{
+      width: 7vw !important;
+      height: 7vw;
+    }
+  
+    /* Adjust table styling for better fit */
+    .part-1 {
+        padding: 1.5rem;
+    }
+  
+    .part-1 table {
+        font-size: 14px; 
+    }
+  
+    .part-1 h2 {
+        font-size: 18px; 
+    }
+  
+    .part-2 {
+        padding: 1.5rem;
+    }
+  
+    .part-2 h2 {
+        font-size: 20px;
+    }
+  
+    .part-2 p {
+        font-size: 14px; 
+    }
+  
+    .card {
+        padding: 1.2rem; 
+    }
+  
+    .card p {
+        font-size: 14px; 
+    }
+    
+    .feature-btm-sec{
+      gap: 5vh;
+      margin-bottom: 4vh;
+    }
+  }
+  

@@ -1,0 +1,72 @@
+@media (max-width: 756px) {
+    /* Hide tags and unions */
+    .tag-1,
+    .tag-2,
+    .tag-3,
+    .tag-4,
+    .tag-5,
+    .tag-6,
+    .tag-7,
+    .union-1,
+    .union-2,
+    .union-3,
+    .union-4,
+    .union-5,
+    .union-6,
+    .union-7 {
+      display: none !important;
+    }
+  
+    /* Adjust other layout styles for small screens */
+    .home {
+      padding: 1rem;
+      height: 60vh;
+    }
+
+    .home-center{
+        margin-top: 8vh;
+        width: 90%;
+        font-size: 9vw !important;
+    }
+   
+    .home .text-center {
+      font-size: 4vh;
+    }
+    .home-btn{
+        margin-top: 4vh;
+    }
+  }
+
+
+  .dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff; */
+    border-radius: 50%;
+  }
+  
+  .dot:nth-child(1) {
+    top: -10px;
+    left: 50%;
+    background-color: blue;
+    transform: translateX(-50%);
+  }
+  
+  .dot:nth-child(2) {
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .dot:nth-child(3) {
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dot:nth-child(4) {
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
