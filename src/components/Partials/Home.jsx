@@ -57,6 +57,10 @@ const Home = () => {
             <span className='tag-6 border-[#575757] border-[0.1px] px-4 py-1.5 text-[#575757] absolute bottom-[10%] right-[58%] text-xl'>Mutation <br /> Register</span>
             <span className='tag-7 border-[#575757] border-[0.1px] px-2 py-1.5 text-[#575757] absolute bottom-[25%] right-[80%] text-xl'>Will</span>
 
+            {/* <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 90 L10 10 L90 10" stroke="gray" stroke-width="1" stroke-linecap="round" fill="none" />
+            </svg> */}
+
             {/* <div className="w-[42vw] flex justify-between items-end mb-[-1vh]">
               <img className='union-1 items-end opacity-0' src="Union.png" alt="" />
               <img className='union-2 items-end opacity-0' src="Union.png" alt="" />
