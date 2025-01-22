@@ -68,10 +68,10 @@ const Home = () => {
                 <motion.div
                     key={i}
                     className="dot absolute"
-                    // style={{
-                    //     top: `${i % 2 === 0 ? 10 + i * 10 : 40}%`, // Adjust for different positions
-                    //     left: `${i % 2 === 0 ? 20 + i * 15 : 60}%`,
-                    // }}
+                    style={{
+                        top: `${i % 2 === 0 ? 10 + i * 10 : 40}%`, // Adjust for different positions
+                        left: `${i % 2 === 0 ? 20 + i * 15 : 60}%`,
+                    }}
                     variants={dotVariants}
                     custom={i}
                 // animate="animate"
@@ -83,44 +83,44 @@ const Home = () => {
             <div className="home-center relative text-[5vh] font-bold border-dashed border-2 border-gray-600 w-[50vw]  flex items-center justify-center text-center p-2 ">
 
                 <motion.div
-                    // initial={{ y: "100%" }} // Start from below the visible area
-                    // animate={{ y: ["100%", "0%", "-3000%", "0%", "100%"] }} // Keyframes: start, move up, come down
-                    // transition={{
-                    //     duration: 5, // Total duration for the entire animation
-                    //     ease: "easeInOut", // Smooth movement
-                    //     times: [0, 0.25, 0.5, 0.75, 1], // Equal timing for up and down
-                    //     repeat: Infinity, // Repeats the animation
-                    //     repeatType: "loop" // Loops the animation smoothly
-                    // }}
-                    className="union-2 w-1.5 h-1.5 bg-red-500 rounded-full absolute top-[-5%] left-[48%] mb-5"
+                    initial={{ y: "100%" }} // Start from below the visible area
+                    animate={{ y: ["100%", "0%", "-2100%", "0%", "100%"] }} // Keyframes: start, move up, come down
+                    transition={{
+                        duration: 5, // Total duration for the entire animation
+                        ease: "easeInOut", // Smooth movement
+                        // times: [0, 0.25, 0.5, 0.75, 1], // Equal timing for up and down
+                        repeat: Infinity, // Repeats the animation
+                        repeatType: "loop" // Loops the animation smoothly
+                    }}
+                    className="union-2 w-1.5 h-1.5 bg-blue-500 rounded-full absolute top-[-5%] left-[48%] mb-5"
                 >
                 </motion.div>
 
 
                 <h1>Generate title flows, compare revenue records, check encumbrances in <span className='bg-[#dd9798]'>seconds.</span></h1>
                 <motion.div
-                    // initial={{ y: "100%" }} // Start from below the visible area
-                    // animate={{ y: ["100%", "0%", "3000%", "0%", "100%"] }} // Keyframes: start, move up, come down
-                    // transition={{
-                    //     duration: 5, // Total duration for the entire animation
-                    //     ease: "easeInOut", // Smooth movement
-                    //     times: [0, 0.25, 0.5, 0.75, 1], // Equal timing for up and down
-                    //     repeat: Infinity, // Repeats the animation
-                    //     repeatType: "loop" // Loops the animation smoothly
-                    // }}
-                    className="union-5 w-1.5 h-1.5 bg-red-500 rounded-full absolute top-[100%] left-[68%]"
+                    initial={{ y: "100%" }} // Start from below the visible area
+                    animate={{ y: ["100%", "0%", "2300%", "0%", "100%"] }} // Keyframes: start, move up, come down
+                    transition={{
+                        duration: 5, // Total duration for the entire animation
+                        ease: "easeInOut", // Smooth movement
+                        times: [0, 0.25, 0.5, 0.75, 1], // Equal timing for up and down
+                        repeat: Infinity, // Repeats the animation
+                        repeatType: "loop" // Loops the animation smoothly
+                    }}
+                    className="union-5 w-1.5 h-1.5 bg-green-500 rounded-full absolute top-[100%] left-[68%]"
                 >
                 </motion.div>
                 <motion.div
-                    // initial={{ y: "100%" }} // Start from below the visible area
-                    // animate={{ y: ["100%", "0%", "3200%", "0%", "100%"] }} // Keyframes: start, move up, come down
-                    // transition={{
-                    //     duration: 5, // Total duration for the entire animation
-                    //     ease: "easeInOut", // Smooth movement
-                    //     times: [0, 0.25, 0.5, 0.75, 1], // Equal timing for up and down
-                    //     repeat: Infinity, // Repeats the animation
-                    //     repeatType: "loop" // Loops the animation smoothly
-                    // }}
+                    initial={{ y: "100%" }} // Start from below the visible area
+                    animate={{ y: ["100%", "0%", "2500%", "0%", "100%"] }} // Keyframes: start, move up, come down
+                    transition={{
+                        duration: 5, // Total duration for the entire animation
+                        ease: "easeInOut", // Smooth movement
+                        times: [0, 0.25, 0.5, 0.75, 1], // Equal timing for up and down
+                        repeat: Infinity, // Repeats the animation
+                        repeatType: "loop" // Loops the animation smoothly
+                    }}
                     className="union-6 w-1.5 h-1.5 bg-red-500 rounded-full absolute top-[100%] left-[27%]"
                 >
                     <img className="" src="Union.png" alt="Moving Union" />
