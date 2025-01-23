@@ -58,15 +58,15 @@ const FeatureTop = () => {
   return (
     <div
       ref={ref}
-      className="feature-upper w-full h-auto lg:h-[80vh] flex flex-col lg:flex-row items-center justify-between gap-6 p-4 lg:p-8"
+      className="feature-upper w-full  flex flex-col lg:flex-row items-center justify-between gap-6 px-20"
     >
       {/* Left Div */}
-      <div className="feature-upper-left w-full lg:w-[40%] flex justify-center">
-        <div className="feature-upper-left-child w-full max-w-md lg:w-[22vw] h-auto lg:h-[53vh] border-[1.9px] border-gray-800 p-7 flex flex-col items-center text-center">
+      <div className=" lg:w-[25%] w-[50%] flex justify-center  h-fit ">
+        <div className=" w-full h-fit  border-[1.9px] border-gray-800 py-10 p-7 flex flex-col items-center text-start">
           <h1 className="text-[6vw] lg:text-[2.3vw] tracking-tighter leading-tight font-semibold text-[#201B1B]">
             Generate title flows instantly.
           </h1>
-          <h3 className="text-sm lg:text-lg mt-6 lg:mt-10">
+          <h3 className="text-sm lg:text-lg mt-4 lg:mt-8">
             Be it risk assessment for sanctioning secured loans or large-scale real estate projects,
             generate title history of lands in seconds with Titlewize. Get detailed, accurate, and actionable information
             of past transactions, mortgages, and ownership to help you make informed investments.
@@ -76,14 +76,14 @@ const FeatureTop = () => {
 
       {/* Right Div with Animation */}
       <motion.div
-        className="feature-upper-right w-full lg:w-[60%] flex justify-center"
+        className="feature-upper-right  w-[95%] lg:w-[75%] flex justify-center"
         initial={{ x: "100%", opacity: 0 }}
         animate={inView ? { x: 0, opacity: 1 } : {}}
-        transition={{ type: "spring", stiffness: 100, damping: 20, duration: 30, delay: 0.9 }}
-      >
+        transition={{ duration: 1.5, ease: "easeOut" ,delay:0.5}}
+              >
         <div className="flex flex-col lg:flex-row w-full max-w-5xl bg-[#fafafa] border rounded-lg">
           {/* Left Sidebar */}
-          <div className="w-full lg:w-64 bg-[#fafafa] border-b lg:border-r border-gray-200">
+          <div className="w-full lg:w-56 bg-[#fafafa] border-b lg:border-r border-gray-200">
             <div className="p-4">
               <button className="flex items-center mb-4">
                 <Home className="w-4 h-4 text-gray-500" />

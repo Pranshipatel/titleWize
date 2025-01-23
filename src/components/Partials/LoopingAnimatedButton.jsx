@@ -12,7 +12,7 @@ function LoopingAnimatedButton() {
           x: [0, 300, 0], // Path of the ball
         }}
         transition={{
-          duration: 10, // Increased duration for slower movement
+          duration: 7, // Increased duration for slower movement
           ease: "easeInOut",
           repeat: Number.POSITIVE_INFINITY,
           repeatType: "loop",

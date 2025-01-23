@@ -5,10 +5,10 @@ import '../css/Feature.css'
 
 const Feature = () => {
   return (
-    <div className='feature h-auto'>
+    <div className='feature h-fit'>
       <FeatureTop/>
       <FeatureBottom/>
-    </div>
+    </div>  
   )
 }
 

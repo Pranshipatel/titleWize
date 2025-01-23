@@ -9,7 +9,7 @@ const Benefits = () => {
 
   return (
     <div
-      className="h-auto min-h-screen w-full flex items-center justify-center px-4 py-8"
+      className="h-fit  min-h-screen w-full flex items-center justify-center px-4 py-8"
       ref={ref}
     >
       <div className="benefits flex flex-col lg:flex-row w-full max-w-[1200px] h-auto lg:h-[80vh] overflow-hidden gap-8">
@@ -22,13 +22,13 @@ const Benefits = () => {
         >
           <div className="top1 w-full lg:w-[80%] border-[1.9px] border-[#201B1B] flex flex-col items-center justify-center p-8 gap-4 bg-white  shadow-sm">
              <LoopingAnimatedButton/>
-            <h1 className="text-lg lg:text-2xl font-semibold text-center leading-relaxed">
-              Save up to 2.5x in legal costs by transforming to automation. Do
+            <h1 className="text-lg lg:text-2xl font-semibold text-start leading-relaxed">
+              Save up to 2.5x in legal costs by transforming to automation.  <br />Do
               more with less.
             </h1>
           </div>
           <div className="top1 w-full lg:w-[80%] border-[1.9px] border-[#201B1B] flex items-center justify-between p-6 bg-white  shadow-sm">
-            <h1 className="text-lg lg:text-2xl font-semibold w-full lg:w-[55%] text-center leading-relaxed">
+            <h1 className="text-lg lg:text-2xl font-semibold w-full lg:w-[55%] text-start leading-relaxed">
               Save up to 10x spent on framing title flows. Close deals lightning
               fast.
             </h1>
@@ -50,10 +50,10 @@ const Benefits = () => {
           <div className="side2-right w-full lg:w-[65%] h-[80%] border-[1.9px] border-[#201B1B] flex flex-col items-center justify-center p-6 bg-white  shadow-sm">
             <img
               src="254.png"
-              className="w-16 h-16 lg:w-[20vw] lg:h-[20vh] object-contain"
+              className="w-16 h-16 lg:w-[18vw] lg:h-[18vh] object-contain"
               alt="Secure Investment"
             />
-            <h1 className="text-lg lg:text-4xl font-semibold text-center leading-relaxed mt-4">
+            <h1 className="text-lg lg:text-4xl font-semibold text-start leading-relaxed mt-4">
               Secure your investments. Eliminate the risk of disputed properties
               before committing capital.
             </h1>

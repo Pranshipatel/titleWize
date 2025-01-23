@@ -7,12 +7,12 @@ const FeatureBottom = () => {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0 });
 
     return (
-        <div className="feature-bottom w-full flex flex-col md:flex-row px-4 md:px-8 lg:px-16 gap-8 mt-20">
+        <div className="feature-bottom w-full flex flex-col md:flex-row px-4 md:px-8 lg:px-20 gap-8 mt-20">
             {/* Left Section */}
-            <div className="w-full md:w-[45%] flex items-center justify-center flex-col space-y-6">
+            <div className="w-full md:w-[45%] flex items-start justify-center flex-col ">
                 <img
                     src="Feature4.png"
-                    className="feature-4 w-[90%] sm:w-[80%] md:w-[80%] lg:w-[60%]"
+                    className="w-[90%] sm:w-[80%] md:w-[80%] lg:w-[70%]"
                     alt="Feature illustration"
                 />
                 <div className="feature-top-first w-full md:w-[70%] flex flex-col items-start space-y-4 p-3 ml-3">
