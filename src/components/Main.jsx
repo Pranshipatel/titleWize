@@ -7,7 +7,7 @@ import Benefits from './Partials/Benefits'
 
 const Main = () => {
   return (
-    <div className="select-none flex flex-col gap-4">
+    <div className="dotted-background select-none flex flex-col gap-4">
       <Navbar />
       <Home />
       <div id="feature-section">
