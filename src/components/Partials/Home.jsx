@@ -67,7 +67,7 @@ const Home = () => {
                 className="tag-1 border-[#575757] border-[0.1px] px-2 py-1.5 text-[#575757] absolute top-[15%] left-[20%] text-xl"
                 initial={{ opacity: 0 }} // Initially hidden
                 animate={{ opacity: 1 }} // Dynamic opacity based on state
-                transition={{ duration: 1, delay: 12 }}
+                transition={{ duration: 1 }}
             >
                 RTC
             </motion.span>
@@ -76,7 +76,7 @@ const Home = () => {
                 className="tag-2 border-[#575757] border-[0.1px] px-2 py-1.5 text-[#575757] absolute top-[10%] left-[46%] text-xl"
                 initial={{ opacity: 0 }} // Initially hidden
                 animate={{ opacity: 1 }} // Dynamic opacity based on state
-                transition={{ duration: 1, delay: 7 }}
+                transition={{ duration: 1, }}
             >
 
                 Sale Deed
@@ -87,7 +87,7 @@ const Home = () => {
                 className="tag-3 border-[#575757] border-[0.1px] px-2 py-1.5 text-[#575757] absolute top-[15%] right-[10%] text-xl "
                 initial={{ opacity: 0 }} // Initially hidden
                 animate={{ opacity: 1 }} // Dynamic opacity based on state
-                transition={{ duration: 1, delay: 2 }}
+                transition={{ duration: 1 }}
             >
                 Encumbrance <br /> certificate
             </motion.span>
@@ -96,7 +96,7 @@ const Home = () => {
             <motion.span className="tag-4 border-[#575757] border-[0.1px] px-2 py-1.5 text-[#575757] absolute bottom-[19%] right-[15%] text-xl"
                 initial={{ opacity: 0 }} // Initially hidden
                 animate={{ opacity: 1 }} // Dynamic opacity based on state
-                transition={{ duration: 1, delay: 12 }}>
+                transition={{ duration: 1 }}>
                 Grant Order
             </motion.span>
 
@@ -104,7 +104,7 @@ const Home = () => {
             <motion.span className="tag-5 border-[#575757] border-[0.1px] px-2 py-1.5 text-[#575757] absolute bottom-[16%] right-[37%] text-xl"
                 initial={{ opacity: 0 }} // Initially hidden
                 animate={{ opacity: 1 }} // Dynamic opacity based on state
-                transition={{ duration: 1, delay: 2 }}>
+                transition={{ duration: 1}}>
                 Partition Deed
             </motion.span>
 
@@ -112,7 +112,7 @@ const Home = () => {
             <motion.span className="tag-6 border-[#575757] border-[0.1px] px-4 py-1.5 text-[#575757] absolute bottom-[10%] right-[58%] text-xl"
                 initial={{ opacity: 0 }} // Initially hidden
                 animate={{ opacity: 1 }} // Dynamic opacity based on state
-                transition={{ duration: 1, delay: 7 }}>
+                transition={{ duration: 1,  }}>
                 Mutation <br /> Register
             </motion.span>
 
@@ -120,7 +120,7 @@ const Home = () => {
             <motion.span className="tag-7 border-[#575757] border-[0.1px] px-2 py-1.5 text-[#575757] absolute bottom-[25%] right-[80%] text-xl"
                 initial={{ opacity: 0 }} // Initially hidden
                 animate={{ opacity: 1 }} // Dynamic opacity based on state
-                transition={{ duration: 1, delay: 12 }}>
+                transition={{ duration: 1 }}>
                 Will
             </motion.span>
 
@@ -128,7 +128,7 @@ const Home = () => {
 
 
             <div className="home-center relative text-[5vh] font-bold border-dashed border-2 border-gray-600 w-[50vw]  flex items-center justify-center text-center p-2 ">
-                <motion.div
+                {/* <motion.div
                     initial={{ y: "100%", opacity: 0 }} // Start below the visible area with opacity 0
                     animate={{
                         y: ["100%", "-2100%", "100%"],
@@ -141,13 +141,13 @@ const Home = () => {
                         times: [0, 0.1, 0.9, 1], // Control when each keyframe happens
                     }}
                     className="union-2 w-1.5 h-1.5 bg-red-500 rounded-full absolute top-[-5%] left-[48%] mb-5"
-                />
+                /> */}
                 <h1>
                     Generate title flows, compare revenue records, check encumbrances in{" "}
                     <span className="bg-[#dd9798]">seconds.</span>
                 </h1>
 
-                <motion.div
+                {/* <motion.div
                     initial={{ y: "100%", opacity: 0 }} // Start below the visible area with opacity 0
                     animate={{
                         y: ["100%", "2300%", "100%"],
@@ -159,8 +159,8 @@ const Home = () => {
                         times: [0, 0.1, 0.9, 1], // Control when each keyframe happens
                     }}
                     className="union-5 w-1.5 h-1.5 bg-red-500 rounded-full absolute top-[100%] left-[68%]"
-                />
-                <motion.div
+                /> */}
+                {/* <motion.div
                     initial={{ y: "100%", opacity: 0 }} // Start below the visible area with opacity 0
                     animate={{
                         y: ["100%", "2500%", "100%"], // Keyframes: start, move up, come down
@@ -175,11 +175,11 @@ const Home = () => {
                     className="union-6 w-1.5 h-1.5 bg-red-500 rounded-full absolute top-[100%] left-[27%]"
                 >
                     <img className="" src="Union.png" alt="Moving Union" />
-                </motion.div>
+                </motion.div> */}
 
 
 
-                <motion.div
+                {/* <motion.div
                     initial={{ x: "0%", y: "0%", opacity: 0 }} // Initially hidden and at the starting position
                     animate={{
                         x: ["0%", "2000%", "2000%", "0%"], // Move horizontally to 2000%, stay, then return
@@ -196,13 +196,13 @@ const Home = () => {
                     }}
                     style={{ display: 'block' }} // Force display block initially
                     className="union-3 w-1.5 h-1.5 bg-red-500 rounded-full absolute top-[40%] right-[-1%] mb-5"
-                />
+                /> */}
 
 
 
 
 
-                <motion.div
+                {/* <motion.div
                     initial={{ x: "0%", y: "100%", opacity: 0 }} // Initially hidden and at the starting position
                     animate={{
                         y: ["100%", "2300%", "2600%", "100%"], // Move down, stay, and then return to the start
@@ -217,9 +217,9 @@ const Home = () => {
                     className="union-4 w-1.5 h-1.5 bg-red-500 rounded-full absolute top-[103%] right-[10%] mb-5"
                 />
 
+ */}
 
-
-                <motion.div
+                {/* <motion.div
                     initial={{ x: "0%", y: "100%", opacity: 0 }} // Initially hidden and at the starting position
                     animate={{
                         y: ["100%", "1800%", "1800%", "100%"], // Move down, stay, and then return to the start
@@ -232,12 +232,12 @@ const Home = () => {
                         delay: 10
                     }}
                     className="union-7 w-1.5 h-1.5 bg-red-500 rounded-full absolute top-[100%] left-[1%] mb-5"
-                />
+                /> */}
 
 
 
 
-                <motion.div
+                {/* <motion.div
                     initial={{ x: "0%", y: "0%", opacity: 0 }} // Initially hidden and at the starting position
                     animate={{
                         x: ["0%", "-1000%", "-1000%", "0%"], // Move horizontally, stay, then return
@@ -250,7 +250,7 @@ const Home = () => {
                         delay: 10
                     }}
                     className="union-1 w-1.5 h-1.5 bg-red-500 rounded-full absolute top-[40%] left-[-1%] mb-5"
-                />
+                /> */}
 
 
             </div>
